@@ -1,0 +1,53 @@
+.container {
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.heading {
+    height: 10vh;
+    font-size: 2.5rem;
+}
+
+
+.bars {
+    height: 75vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 25px;
+    margin: 2px;
+    background-color: #add8e6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.btns-div {
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #407088;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    background-color: #194053;
+
+}
+
+.generateArrayBtn {
+    margin-right: 150px;
+}
+
